@@ -86,8 +86,21 @@ records = cursor.fetchall()
 
 # Displaying the records
 
-for record in records:
+#for record in records:
 
-    print(record)
+    #print(record)
+
+#SELECT * FROM EMPLOYEE WHERE INCOME=10000.00
+sql44 = '''
+        SELECT * FROM EMPLOYEE 
+        '''
+        #WHERE INCOME=10000.00
+try:
+    cursor.execute(sql44)
+except  Exception as e:
+    print('Unable to fetch data.', str(e))
+
+records44 = cursor.fetchall()
+print(records44)
 # closing the connection
 con.close()
