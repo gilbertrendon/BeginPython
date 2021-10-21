@@ -15,12 +15,9 @@ def average(a,b,c):
         # floata+','+floatb+','+floatc+')'+'\{\}'+(floata+floatb+floatc)/3
         print('Accessed the function -\'average\' with arguments ('+
         str(floata)+','+str(floatb)+','+str(floatc)+')'+'\{\}'+str((floata+floatb+floatc)/3))                                                                               
-        #return str_template + "\n" + str(func(*args, **kwdargs))
     return inner(floata,floatb,floatc)
 
 #Add greet function definition here
-
-
 '''Check the Tail section for input/output'''
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ import os
 def bold_tag(text):
     
     def decorator(txt):
-        return '<b>'+txt+'<b>'
+        return '<b>'+txt+'</b>'
     return decorator(text)
 
 #Add greet function definition here
