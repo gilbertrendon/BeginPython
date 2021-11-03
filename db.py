@@ -1,5 +1,5 @@
 import sqlite3
-# establishing  a database connection asdf
+# establishing  a database connection asdfg
 con = sqlite3.connect('D:\\TEST.db')
 # preparing a cursor object
 cursor = con.cursor()
