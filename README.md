@@ -1,5 +1,11 @@
 # BeginPython
 BeginPython
+#Para las excepciones
+ except Exception as e:
+            print("Error Message :", str(e))
+
+
+
 #Página(s) para respuestas de frescoplay(solvedcode.com)
 
 #Pasos para crear el ambiente: *python -m venv projenv
