@@ -1,10 +1,14 @@
 from flask import Flask
-
+from flask import render_template
 
 app = Flask(__name__)
 
 @app.route("/")
 def hello():
+    return render_template("templates.html", title="Title Page of Hello App")
+
+@app.route("/a")
+def helloa():
     return '''
 <html>
     <head>
@@ -26,7 +30,6 @@ def hello_user(username):
         <h1>Hello, ''' + username + '''!!!</h1>
     </body>
 </html>'''
-
 
 if __name__ == '__main__':
     app.run()
