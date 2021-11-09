@@ -28,3 +28,11 @@ BeginPython
 
 
 #Documentación extensiones flask: https://flask.palletsprojects.com/en/2.0.x/extensions/
+
+##Para manejar las bases de datos:
+#pip install flask-sqlalchemy
+#para la activación de migraciones: pip install flask-migrate
+
+#Para evitar problemas configurando variables de entorno: 
+#app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+#app.config['SQLALCHEMY_DATABASE_URI'] = False
