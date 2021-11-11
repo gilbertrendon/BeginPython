@@ -36,3 +36,10 @@ BeginPython
 #Para evitar problemas configurando variables de entorno: 
 #app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 #app.config['SQLALCHEMY_DATABASE_URI'] = False
+
+#Dudas: ¿Hay que ejecutar el ambiente para poder instalar o importar?
+
+#Conectarse a una base de datos en flask
+#instalando pip install flask_sqlalchemypu
+
+#Página donde se crea el proyecto en la nube: https://www.pythonanywhere.com/user/gilbertrendon/files/home/gilbertrendon
