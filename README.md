@@ -1,3 +1,5 @@
+https://www.coursehero.com/file/49730409/quiztxt/
+
 Curso de Design thinking
 https://multidimensionbase.blogspot.com/2020/12/design-thinking.html
 https://www.passeidireto.com/arquivo/89231965/understanding-design-thinking-v-2
