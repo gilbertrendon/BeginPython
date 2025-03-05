@@ -1,3 +1,6 @@
+from sqlalchemy.ext.declarative import declarative_base
+
+
 class Book:
     def __init__(self, id):
         self.id = id
